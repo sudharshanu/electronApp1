@@ -1,0 +1,22 @@
+{
+  "name": "electron.app1",
+  "version": "1.0.0",
+  "description": "An example of an autoupdating electron app",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "build --win",
+    "ship": "build --win -p always"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^4.1.4",
+    "electron-builder": "^20.39.0"
+  },
+  "dependencies": {
+    "electron-updater": "^4.0.6"
+  },
+  "repository": "https://github.com/sudharshanu/electronApp1"
+}
